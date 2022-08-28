@@ -1,0 +1,19 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <table style='border: 1px solid black'>
+            <tr>
+                <th>이름</th><th>긍정리뷰수</th><th>부정리뷰수</th><th>리뷰수</th><th>긍정/부정</th><th style='background-color: #ffaabb'>예측판매량</th><th style='background-color: #ffaabb'>예상매출</th>
+            </tr>
+            <tr>
+                {% for info in data %}
+                <td>{{info}}</td>
+                {% endfor %}
+            </tr>
+
+        </table>
+        
+    </body>
+</html>
